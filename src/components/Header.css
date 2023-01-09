@@ -1,0 +1,53 @@
+.header{
+    display: flex;
+    justify-content: center;
+    height: 14vh;
+    position: sticky;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(226, 229, 235, 0.829);
+
+}
+.logo{
+    margin-top: 20px;
+ width: 500px;  
+ height: 100%;
+
+}
+.links{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15pt;
+ 
+}
+.links p{
+   margin-left: 70px;
+   margin-right: 70px;
+}
+
+.links :hover{
+transition: all 2s;
+border-radius: 15%;
+box-shadow: 3px 10px 10px rgb(12, 7, 24);
+animation: reveal 1s linear forwards;
+cursor: pointer;
+}
+
+.homelink:hover{
+background-color: #dbbb4b;
+}
+.specials:hover{
+    background-color: #4fa673;
+}
+.products:hover{
+    background-color: #95562d;
+}
+.blog:hover{
+    background-color: #dbbb4b;
+}
+.gallery:hover{
+    background-color: #4fa673;
+}
+.aboutus:hover{
+    background-color: #95562d;
+}
